@@ -51,37 +51,37 @@
 
 3. Добавление участников в проект (Функциональное требование 8)
    - Агрегат: Project Aggregate
-   - Команда: AddProjectParticipant(projectId, userId)
+   - Команда: AddProjectParticipant(projectName, userId)
    - События: ProjectParticipantAdded
 
 4. Создание задачи (Функциональное требование 9)
-   - Агрегат: Task Aggregate
-   - Команда: CreateTask(projectId, name, creatorId, [executorId, estimatedDays, priority])
+   - Агрегат: Project Aggregate
+   - Команда: CreateTask(projectName, name, creatorId, [executorId, estimatedDays, priority])
    - События: TaskCreated
 
 5. Обновление задачи (Функциональные требования 13, 14, 15, 16)
-   - Агрегат: Task Aggregate
-   - Команда: UpdateTask(taskId, [executorId, status, estimatedDays, priority])
+   - Агрегат: Project Aggregate
+   - Команда: UpdateTask(taskName, [executorId, status, estimatedDays, priority])
    - События: TaskUpdated
 
 6. Удаление задачи (Функциональное требование 18)
-   - Агрегат: Task Aggregate
-   - Команда: DeleteTask(taskId)
+   - Агрегат: Project Aggregate
+   - Команда: DeleteTask(taskName)
    - События: TaskDeleted
 
 7. Создание статусов в проекте (Функциональное требование 21)
    - Агрегат: Project Aggregate
-   - Команда: CreateStatus(projectId, name, color)
+   - Команда: CreateStatus(projectName, name, color)
    - События: StatusCreated
 
 8. Изменение порядка статусов (Функциональное требование 25)
    - Агрегат: Project Aggregate
-   - Команда: UpdateStatusOrder(projectId, statusOrder)
+   - Команда: UpdateStatusOrder(projectName, statusOrder)
    - События: StatusOrderUpdated
 
 9. Удаление статуса (Функциональное требование 24)
    - Агрегат: Project Aggregate
-   - Команда: DeleteStatus(projectId, statusId)
+   - Команда: DeleteStatus(projectName, statusId)
    - События: StatusDeleted
 
 ### Баланс Между Записями и Чтениями
