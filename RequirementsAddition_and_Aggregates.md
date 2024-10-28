@@ -118,13 +118,10 @@ _1. User Management (Управление пользователями)_
 *3. Task Management (Управление задачами)*
 Термины: Задача (Task), Название задачи (Task Name), Исполнитель (Executor), Создатель (Creator), Ожидаемая оценка (Estimated Effort), Приоритет (Priority), Статус задачи (Task Status), Новая (New), В работе (In progress), Ревью (Review), Завершена (Completed), Добавить задачу (Add Task), Изменить задачу (Edit Task), Удалить задачу (Delete Task), История изменений задачи (Task History).
 
-*4. Search (Поиск)*
-Термины: Поиск по никнейму (Nickname Search), Поиск по названию проекта (Project Name Search), Поиск по названию задачи (Task Name Search), Результат поиска (Search Result).
-
-*5.History (История)*
+*4. History (История)*
 Термины: История (History), Измененная сущность (Entity), Идентификатор сущности (Entity ID), Пользователь (User), Дата изменения (Update Date), Состояние "до" (Before State), Состояние "после" (After State).
 
-**6. Status Management (Управление статусами) \
+**5. Status Management (Управление статусами) \
 Термины: Статус (Status), Название (Name), Цвет (Color), Порядок (Order), Создать статус (Create Status), Изменить статус (Change Status), Удалить статус (Delete Status).**
 
 ### Entities
